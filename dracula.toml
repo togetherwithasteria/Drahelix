@@ -10,33 +10,34 @@ property = "foreground"
 "function.builtin" = "cyan"
 "ui.background" = { bg = "background" }
 "ui.text" =  { fg = "foreground" }
-"ui.statusLine" = { fg = "foreground", bg = "bg-light" } 
-"ui.statusLine.inactive" = { fg = "foreground", bg = "purple" }
+"ui.statusLine" = { fg = "foreground", bg = "color0" } 
+"ui.statusLine.inactive" = { fg = "foreground", bg = "color0" }
 "ui.selection" = { bg = "selection" }
-"ui.info" = { fg = "foreground", bg = "bg-light" }
-"ui.menu" = { fg = "foreground", bg = "bg-light" }
-"ui.window" = { fg = "foreground", bg = "bg-light" }
-"ui.help" = { fg = "foreground", bg = "bg-light" }
+"ui.info" = { fg = "foreground", bg = "color0" }
+"ui.menu" = { fg = "foreground", bg = "color0" }
+"ui.window" = { fg = "foreground", bg = "color0" }
+"ui.help" = { fg = "foreground", bg = "color0" }
 "ui.linenr" = "comment"
 "ui.linenr.selected" = "foreground"
-"ui.menu.selected" = { fg =  "foreground", bg = "bg-light" }
+"ui.menu.selected" = { fg =  "foreground", bg = "color0" }
 number = "purple"
 attribute = "green"
 "constant.builtin" = "purple"
-"ui.popup" = { fg =  "foreground", bg = "bg-light" }
+"ui.popup" = { fg =  "foreground", bg = "color0" }
 
 namespace = "pink"
 
 [palette]
-background = "#282A36"
-foreground = "#F8F8F2"
-selection = "#44475A"
+background = "#f8f8f2"
+foreground = "#282a36"
+selection = "#cbcee5"
 comment = "#6272A4"
-red = "#FF5555"
-orange = "#FFB86C"
-yellow = "#F1FA8C"
-green = "#50FA7B"
-purple = "#BD93F9"
+red = "#d82f39"
+orange = "#a0651b"
+yellow = "#4c5b00"
+green = "#008525"
+purple = "#855fbf"
 cyan = "#8BE9FD"
-pink = "#FF79C6"
-bg-light = "#343746"
+pink = "#c13f8e"
+white = "#727272"
+color0 = "#eaebf9"
