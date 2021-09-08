@@ -1,4 +1,3 @@
-
 error = "red"
 comment = "comment"
 constant = "purple"
@@ -7,9 +6,26 @@ keyword = "pink"
 type = { fg = "cyan", modifiers = ["italic"] }
 string = "yellow"
 variable = "foreground"
+property = "foreground"
+"function.builtin" = "cyan"
+"ui.background" = { bg = "background" }
+"ui.text" =  { fg = "foreground" }
+"ui.statusLine" = { fg = "foreground", bg = "bg-light" } 
+"ui.statusLine.inactive" = { fg = "foreground", bg = "purple" }
+"ui.selection" = { bg = "selection" }
+"ui.info" = { fg = "foreground", bg = "bg-light" }
+"ui.menu" = { fg = "foreground", bg = "bg-light" }
+"ui.window" = { fg = "foreground", bg = "bg-light" }
+"ui.help" = { fg = "foreground", bg = "bg-light" }
+"ui.linenr" = "comment"
+"ui.linenr.selected" = "foreground"
+"ui.menu.selected" = { fg =  "foreground", bg = "bg-light" }
+number = "purple"
+attribute = "green"
+"constant.builtin" = "purple"
+"ui.popup" = { fg =  "foreground", bg = "bg-light" }
 
-"ui.background" = "white"
-"ui.text" = "black"
+namespace = "pink"
 
 [palette]
 background = "#282A36"
@@ -23,3 +39,4 @@ green = "#50FA7B"
 purple = "#BD93F9"
 cyan = "#8BE9FD"
 pink = "#FF79C6"
+bg-light = "#343746"
