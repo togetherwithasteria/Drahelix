@@ -7,6 +7,8 @@ type = { fg = "cyan", modifiers = ["italic"] }
 string = "yellow"
 variable = "foreground"
 property = "foreground"
+hint = {  fg = "foreground" }
+diagnostic = { fg = "foreground" }
 "function.builtin" = "cyan"
 "ui.background" = { bg = "background" }
 "ui.text" =  { fg = "foreground" }
@@ -14,7 +16,9 @@ property = "foreground"
 "ui.statusline.inactive" = { fg = "foreground", bg = "purple" }
 "ui.selection" = { bg = "selection" }
 "ui.info" = { fg = "foreground", bg = "bg-light" }
+"ui.info.text" = { fg = "foreground", bg="bg-light"  }
 "ui.menu" = { fg = "foreground", bg = "bg-light" }
+"ui.menu.selection" = { fg = "foreground", bg = "bg-light" }
 "ui.window" = { fg = "foreground", bg = "bg-light" }
 "ui.help" = { fg = "foreground", bg = "bg-light" }
 "ui.linenr" = "comment"
@@ -24,6 +28,8 @@ number = "purple"
 attribute = "green"
 "constant.builtin" = "purple"
 "ui.popup" = { fg =  "foreground", bg = "bg-light" }
+
+
 
 namespace = "pink"
 
