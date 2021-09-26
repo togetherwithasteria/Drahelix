@@ -10,8 +10,8 @@ property = "foreground"
 "function.builtin" = "cyan"
 "ui.background" = { bg = "background" }
 "ui.text" =  { fg = "foreground" }
-"ui.statusLine" = { fg = "foreground", bg = "bg-light" } 
-"ui.statusLine.inactive" = { fg = "foreground", bg = "purple" }
+"ui.statusline" = { fg = "foreground", bg = "bg-light" } 
+"ui.statusline.inactive" = { fg = "foreground", bg = "purple" }
 "ui.selection" = { bg = "selection" }
 "ui.info" = { fg = "foreground", bg = "bg-light" }
 "ui.menu" = { fg = "foreground", bg = "bg-light" }
