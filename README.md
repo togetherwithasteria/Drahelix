@@ -1,3 +1,5 @@
+Note: Helix now supplies their implementation of Dracula by default. And because of such, this repository is now archived.
+
 # Dracula for [X](http://link-to-x.com)
 
 > A dark theme for [X](http://link-to-x.com).
